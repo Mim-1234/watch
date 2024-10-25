@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .category-card {
+      display: flex;
+      align-items: center;
+      justify-content:space-evenly;
+      height: 150px;
+      width:220px;
+      border-radius:8px 8px;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .watches {
+      background-color: #00BFFF; /* Light Blue */
+    }
+
+    .shoes {
+      background-color: #1E90FF; /* Dodger Blue */
+    }
+
+    .bags {
+      background-color: #2E8B57; /* Sea Green */
+    }
+@media only screen and 
+(max-width:7680px) {
+  .category-card{
+    display:flex;
+    justify-content:space-evenly;
+    height:100px;
+    width:100%;
+    border-radius:8px 8px;
+    align-items:center;
+    
+  }
+  
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row text-center mt-5">
+      <div class="col-md-4 mb-3">
+        <div class="category-card watches">
+          Watches
+          <img src="image/watch.png"height="70"width="80">
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="category-card shoes">
+          Shoes
+          <img src="image/shoe.png"height="70"width="80">
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="category-card bags">
+          Bags
+          <img src="image/bag.png"height="70"width="80">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
